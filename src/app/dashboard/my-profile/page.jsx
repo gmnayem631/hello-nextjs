@@ -1,12 +1,12 @@
 import Title from "@/components/Title";
 import React from "react";
 
-const Dashboard = () => {
+const MyProfile = () => {
   return (
     <div>
-      <Title>Welcome to Dashboard</Title>
+      <Title>My Profile</Title>
     </div>
   );
 };
 
-export default Dashboard;
+export default MyProfile;
