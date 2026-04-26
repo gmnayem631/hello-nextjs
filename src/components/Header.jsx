@@ -4,7 +4,9 @@ import React from "react";
 const Header = () => {
   return (
     <header className="border-b-2 border-zinc-500 px-4 py-3 flex justify-between items-center">
-      <h2 className="text-lg font-semibold">Dev Story</h2>
+      <Link href={"/"} className="text-lg font-semibold">
+        Dev Story
+      </Link>
 
       <nav className="flex gap-5">
         <Link href={"/tutorials"}>Tutorials</Link>
