@@ -5,7 +5,9 @@ const DashboardLayout = ({ children }) => {
   return (
     <div className="my-10 grid grid-cols-12 gap-5 min-h-screen">
       <div className="col-span-3 border-r-2 ml-3">
-        <h2>Navigation</h2>
+        <Link href={"/"} className="text-lg font-semibold">
+          Dev Story
+        </Link>
         <div className="flex flex-col gap-5 mt-10">
           <Link
             className="bg-gray-200 text-black px-2 py-4 rounded-lg text-lg"
